@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" aria-valuetext="absolute">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Music Taste</title>
+</head>
+<body style="background-color: black;">
+    <header><!--dentro de la etiqueta header encontramos el nav que entralazara todas las paginas(se que es mala praxis poner estilos inline...perdon xD)-->
+      <nav>
+        <h1 style="text-align: center;font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;color: #fff;font-size: 50px;">MUSIC TASTE</h1>
+        <h3 style="text-align: center;color: #fff;">the music in the soul</h3>
+        <br><br>
+        <ul style="list-style: none;">
+            <style> 
+                a:hover { color: brown; }
+            </style>
+            <li><a href="index.html">Music Taste</a></li>
+            <li><a href="reseña.html">Reseña</a></li>
+            <li><a href="fotos.html">Fotos</a></li>
+            <li><a href="videos.html">Videos</a></li>
+            <li><a href="contacto.html">contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <br>
+    <div style="text-align: center;"><!-----formulario---->
+        <div style="background-image: url(assets-img/pexels-aron-visuals-1743165.jpg)"><br>
+            <h2>DEJANOS TUS DATOS</h2>
+
+            <form >
+                <label for="nombre">NOMBRE:</label>
+                <input type="text" id="nombre" placeholder="ejem. jose" required><br><br><br>
+                <label for="apellido">APELLIDO:</label>
+                <input type="text" id="apellido" placeholder="ejem. hernandez" required><br><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="@example.com" required>
+                <br><br>
+                <label for="sexo">Sexo:</label><br><br>
+                <input type="radio" name="sexo" required>MASCULINO<br><br>
+                <input type="radio" name="sexo" required>FEMENINO<br><br>
+                <input type="radio" name="sexo">Otros<br><br>
+                <label> Pais:</label>
+                <select name="" id="">
+                <option value="">Perú</option>
+                <option value="">Argentina</option>
+                <option value="">Chile</option>
+                <option value="">Mexico</option></select><br><br><br>
+
+                <h3>DEJANOS UN COMENTARIO</h3>
+                <textarea name="" id="" cols="50" rows="8" placeholder="Taste music me parece..."></textarea><br><br>
+                <input type="submit"><br><br>
+            </form>
+        </div>
+    </div><br>
+        <audio style="float: right;" src="assets-videomusic/X2Download.com - Dile - Don Omar 128 kbps.mp3" controls autoplay></audio>
+    </div>
+    <br><br><br>
+    <footer><!--este es el footer que llevara mis redes sociales y derechos de autor-->
+        <div style="text-align: center;">
+             <a href="https://wa.link/535q42" target="_blanc"><img src="assets-img/whatsapp.png" style= "width: 2%;"></a><br>
+            <a href="#"><img src="assets-img/music-icon.png" style="background-color: #fff; width: 2% "><br>
+            <a href="https://www.instagram.com/musicaelectronicaarica/" target="_blanc"><img src="assets-img/instagram.png"style= "width: 2%;"></a><br>
+            <p style="color: #fff;">
+                &copy;2022 Music Taste. Todos los derechos reservados. 
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
